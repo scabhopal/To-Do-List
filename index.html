@@ -1,0 +1,49 @@
+<html lang="en">
+	<head>
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+			integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+		<title>Todo List</title>
+	</head>
+
+	<body>
+		<div class="container">
+			<header>
+				<h1 class="heading">Todo List</h1>
+				<form class="search">
+					<input
+						type="text"
+						name="search"
+						placeholder="Search your added todos"
+					/>
+				</form>
+			</header>
+
+			<ul class="todos">
+				<li>
+					<span>Read A Book</span>
+					<i class="far fa-trash-alt delete"></i>
+				</li>
+				<li>
+					<span>Take Online Class</span>
+					<i class="far fa-trash-alt delete"></i>
+				</li>
+				<li>
+					<span>Listen To Music</span>
+					<i class="far fa-trash-alt delete"></i>
+				</li>
+			</ul>
+
+			<form class="add" name="addfrm">
+				<label>Add a new todo...</label>
+				<input type="text" name="add" placeholder="Type something to add" />
+			</form>
+		</div>
+
+		<script src="app.js"></script>
+	</body>
+</html>
